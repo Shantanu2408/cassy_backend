@@ -1,10 +1,13 @@
 {
   "name": "cassy-backend",
   "version": "1.0.0",
-  "description": "CASSY Backend - Auth, Approval, Chat Integration",
+  "description": "CASSY Backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "dependencies": {
     "@azure/cosmos": "^3.17.3",
