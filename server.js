@@ -36,7 +36,7 @@ app.post("/register", async (req, res) => {
       email,
       passwordHash: hash,
       role,
-      status: "pending", // approval required
+      status: "approved", // approval required
       createdAt: new Date()
     };
 
